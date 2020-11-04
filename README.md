@@ -9,7 +9,7 @@ We must, therefore, calculate ensemble averages by a different means.  In this e
 
 In this expression ![](https://render.githubusercontent.com/render/math?math=Z) is the canonical partition function, which should be evaluated in the way that we just learned, ![](https://render.githubusercontent.com/render/math?math=\beta) is the inverse temperature and the sum runs over the M microstates, ![](https://render.githubusercontent.com/render/math?math=\mathbf{x}_j), that the system can adopt.  H, meanwhile, is one of the Hamiltonians that we learned how to compute during the first few of these exercises.  In this particular exercise we are going to use the Hamiltonian for the 1D Ising model in an external magnetic field, H:
 
-![](https://render.githubusercontent.com/render/math?math=E=-\sum{i=1}^{N}s_i\s_{i%2B1}-H\sum_{i=1}^{N}s_i)
+![](https://render.githubusercontent.com/render/math?math=E=-\sum_{i=1}^{N}s_i\s_{i%2B1}-H\sum_{i=1}^{N}s_i)
 
 The sums here run over the number of spins, N, and the geometry is closed so ![](https://render.githubusercontent.com/render/math?math=s_{N%2B1}=s_1).
 
