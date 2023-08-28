@@ -5,7 +5,7 @@ We have learned that if you have an analytic expression for the partition functi
 We must, therefore, calculate ensemble averages by a different means.  In this exercise we are, therefore, going to learn how to compute the ensemble average of the energy by using the following expression:
 
 $$
-\langle\E\rangle=\frac{1}{Z}\sum_{j=1}^{M} E(\mathbf{x}_j)e^{-\beta E(\mathbf{x}_j)}
+\langle E\rangle=\frac{1}{Z}\sum_{j=1}^{M} E(\mathbf{x}_j)e^{-\beta E(\mathbf{x}_j)}
 $$
 
 
