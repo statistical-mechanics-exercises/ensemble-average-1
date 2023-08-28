@@ -4,7 +4,9 @@ We have learned that if you have an analytic expression for the partition functi
 
 We must, therefore, calculate ensemble averages by a different means.  In this exercise we are, therefore, going to learn how to compute the ensemble average of the energy by using the following expression:
 
-![](https://render.githubusercontent.com/render/math?math=\langle\E\rangle=\frac{1}{Z}\sum_{j=1}^{M}H(\mathbf{x}_j)e^{-\beta\H(\mathbf{x}_j)})
+$$
+\langle\E\rangle=\frac{1}{Z}\sum_{j=1}^{M}E(\mathbf{x}_j)e^{-\beta E(\mathbf{x}_j)}
+$$
 
 
 In this expression ![](https://render.githubusercontent.com/render/math?math=Z) is the canonical partition function, which should be evaluated in the way that we just learned, ![](https://render.githubusercontent.com/render/math?math=\beta) is the inverse temperature and the sum runs over the M microstates, ![](https://render.githubusercontent.com/render/math?math=\mathbf{x}_j), that the system can adopt.  H, meanwhile, is one of the Hamiltonians that we learned how to compute during the first few of these exercises.  In this particular exercise we are going to use the Hamiltonian for the 1D Ising model in an external magnetic field, H:
